@@ -96,9 +96,9 @@ h1 {
 }
 
 embed{
-  text-align: center;
-  width: 800px;
-  height: 800px;
-  margin-top: 3em;
+    align-content: center;
+    width: 800px;
+    height: 800px;
+    margin-top: 3em;
     border: 1px solid black;
 }
