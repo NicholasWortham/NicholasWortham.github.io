@@ -100,4 +100,5 @@ embed{
   width: 800px;
   height: 800px;
   margin-top: 3em;
+    border: 1px solid black;
 }
