@@ -96,7 +96,7 @@ h1 {
 }
 
 embed{
-    align-content: center;
+    text-align: center;
     width: 800px;
     height: 800px;
     margin-top: 3em;
