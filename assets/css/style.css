@@ -1,44 +1,66 @@
 @charset "UTF-8";
 html,
 html,body {width:100%;height:100%;}
+html{
+ font-family:"Source Sans Pro";
+}
+@font-face {
+  font-family: 'brandon_grotesquelight';
+  src: url("../fonts/brandon_light-webfont.eot");
+  src: url("../fonts/brandon_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_light-webfont.woff2") format("woff2"), url("../fonts/brandon_light-webfont.woff") format("woff"), url("../fonts/brandon_light-webfont.ttf") format("truetype"), url("../fonts/brandon_light-webfont.svg#brandon_grotesquelight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 nav {
-    background: #571b1b;
-}
-
-
-nav ul {
-    padding: 0;
-    margin: 0 auto;
-    text-align: center;
-}
-
-nav ul li {
-  text-decoration: none;
-    display: inline-block;
-}
-
-nav ul li a {
-    color: white;
+  text-align: right;
+  margin-right: 60px; }
+  nav a {
+    transition: 200ms;
     text-decoration: none;
-    padding: 10px;
+    font-family: "brandon_grotesquemedium";
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 1px;
+    color: white;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: solid 2px rgba(255, 255, 255, 0);
+    border-bottom: solid 2px rgba(255, 255, 255, 0); }
+    nav a:hover {
+      transition: 200ms;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-top: solid 2px white;
+      border-bottom: solid 2px white; }
+  nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 40px 0 40px; }
 
-}
-nav {
-    position: fixed;
-    bottom: 0;
-    left: .5em;
-    width: 100vw;
-}
+.c-hamburger {
+  display: none; }
 
-nav ul {
-    padding: 20px;
-}
+/* header */
+header {
+  background-color: #5E0005;
+  height: 30vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header nav {
+    position: absolute;
+    right: 0; }
 
-nav ul li {
-    font-size: 24px;
-    font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-    padding: 0 1em;
-}
+.home-header {
+  height: 10vh; }
+
+
+
+.home-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; }
 
 footer{
   position: top;
