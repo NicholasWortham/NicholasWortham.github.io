@@ -85,7 +85,7 @@ text-align: center;
 p{
   text-align: center;
   margin: 0 auto;
-  margin-top: 5em;
+  margin-top: 2em;
   color: #000;
  font-family:"Source Sans Pro";
   font-size: 18px;
@@ -125,12 +125,4 @@ embed{
     margin-top: 3em;
     border: 1px solid black;
 }
-div {
-    width: 100%;
-}
 
-div a {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-}
