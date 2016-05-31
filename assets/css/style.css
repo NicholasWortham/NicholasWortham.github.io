@@ -45,7 +45,6 @@ header {
   align-items: center;
   justify-content: center; }
   header nav {
-    position: absolute;
     right: 0; }
 
 .home-header {
