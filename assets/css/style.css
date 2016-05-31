@@ -113,7 +113,10 @@ h1 {
   color: #000;
   border-bottom: 2px solid black;
 }
-
+h2{
+    text-align: center;
+    color: #000;
+}
 embed{
     text-align: center;
     width: 800px;
