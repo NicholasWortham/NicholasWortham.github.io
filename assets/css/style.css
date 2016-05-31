@@ -125,3 +125,12 @@ embed{
     margin-top: 3em;
     border: 1px solid black;
 }
+div {
+    width: 100px;
+}
+
+div a {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
